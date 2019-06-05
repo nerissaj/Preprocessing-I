@@ -54,6 +54,108 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	font-size: 62.5%;
+	background-image: linear-gradient(#2A2E45, rgb(255, 0, 13));
+	color:white;
+	
+}
+img{
+	width:200px;
+	height:200px;
 }
 
+
+@text-larger:40px;
+@text-smaller: 25px;
+@text-tiny:16px;
+@buttonbaby:4px solid white;
+@borderbaby:1px solid white;
+
+
+.first-container{
+	//width:100%;
+	border:@borderbaby;
+	padding:15px;
+	align-items: center;
+	display:flex;
+	margin:20px;
+nav{
+	display:inline-block;
+}
+
+nav a{	
+	width: 46%;
+	align-items: center;
+	font-size: @text-larger;
+	background-color:#2A2E45;
+	justify-content: space-between;
+	display:flex;
+		text-decoration: none;
+		border-bottom:1px solid #ffffff;
+		color:white;
+		font-size:@text-larger;
+	}
+}
+}
+
+img{
+	width:150px;
+	height:150px;
+}
+
+header{
+	font-size:@text-smaller;
+	justify-content:center;
+	width:150px;
+
+	h1{
+		font-size:@text-larger;
+	width:47%;
+		
+	
+	p{
+		font-size:@text-tiny;
+	
+	button{
+		border: @buttonbaby;
+	
+	
+	
+	}
+	}
+	
+	}
+
+}
+.second-container{
+	.first-container;
+	li{
+		display: inline-block;
+	}
+	.projects{
+
+	border:@buttonbaby;
+	}
+section{
+	width:47%;
+	font-size:@text-larger;
+	
+	
+	.skills {
+		li{
+			font-size: @text-larger;
+			display:block;
+			button{
+		border:@buttonbaby;
+	}
+}
+
+
+}
+@media(max-width:500px){
+img{
+	width:200px;
+	height: 200px;
+}
+}
